@@ -1,0 +1,47 @@
+name: Bug
+description: Something in docs, templates, or a stack installer does not work
+title: "[bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Use Discussions for questions. File this issue in the stack repo when the bug is in an installer.
+  - type: dropdown
+    id: location
+    attributes:
+      label: Where
+      options:
+        - Organization profile / this .github repo
+        - java
+        - csharp
+        - python
+        - golang
+        - Unsure
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Ubuntu / Debian
+        - Fedora
+        - Arch
+        - Other
+        - Not applicable
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Expected vs actual. Include commands and error text.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: One-liner and flags if you used them (`--lang`, `--profile`, `--appIds`, `--UpdateIfExists`).

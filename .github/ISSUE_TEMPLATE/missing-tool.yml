@@ -1,0 +1,45 @@
+name: Missing or wrong tool
+description: A package is missing, misnamed, or a poor fit for a stack
+title: "[tool] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Tool catalogs live in each stack repo `tools.yml`. Prefer opening this issue there when you know the stack.
+  - type: dropdown
+    id: stack
+    attributes:
+      label: Stack
+      options:
+        - java
+        - csharp
+        - python
+        - golang
+        - Organization / shared
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool name
+      placeholder: e.g. Git, JDK 21
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - Missing
+        - Wrong package id / source
+        - Poor fit (should not be default)
+        - Needs an alternative (select_one)
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Package manager names (`apt`, `dnf`, `pacman`, `brew`, `winget`) and why this belongs (or does not) in the profile.
+    validations:
+      required: true
