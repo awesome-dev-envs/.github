@@ -1,0 +1,57 @@
+name: Bug Report
+description: Found something wrong? Please report it here!
+title: "[bug]"
+labels:
+  - bug
+  - triage
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve this project!
+
+        To help us investigate the bug, please provide clear steps to reproduce the problem, along with any relevant logs, screenshots, or error messages.
+
+        Before submitting a bug report, take a moment to read our [Contributing Guide](https://github.com/awesome-dev-envs/blob/main/CONTRIBUTING.md).  
+        If you have questions, need support, or would like to suggest a new feature, please use our [GitHub Discussions](https://github.com/orgs/awesome-dev-envs/discussions).
+  - type: markdown
+    attributes:
+      value: Use Discussions for questions. File this issue in the stack repo when the bug is in an installer.
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: Describe what happened. Keep it specific and concise.
+      placeholder: |
+        ## Description
+        Describe what happened. Include commands and error text.
+
+        ## Steps to reproduce
+        1.
+        2.
+        3.
+
+        ## Expected behavior
+        Describe what you expected to happen.
+
+        ## Environment
+        - OS Version: macOS 15 / Windows 11 / Linux Ubuntu 22.04
+        - Shell Version: zsh / bash / powershell
+
+        ## Additional information
+        Add screenshots, logs, or any other relevant details.
+
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Expected vs actual. Include commands and error text.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: Need more details in the README.md
