@@ -1,0 +1,37 @@
+name: Change Request
+description: Is something bothering you? Suggest a change.
+title: "[change]"
+labels:
+  - enhancement
+  - triage
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve this project!
+
+        Before submitting a change request, take a moment to read our [Contributing Guide](https://github.com/awesome-dev-envs/blob/main/CONTRIBUTING.md).  
+        If you have questions, need support, or would like to suggest a new feature, please use our [GitHub Discussions](https://github.com/orgs/awesome-dev-envs/discussions).
+  - type: markdown
+    attributes:
+      value: Use Discussions for questions. File this issue in the stack repo when the change is in an installer.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Change Proposal
+      description: Describe what should change, why it should change, and how it would improve the project. Keep it specific and concise.
+      placeholder: |
+        ## Current behavior:
+        Describe the origin of the issue or how the feature, workflow, or documentation works today.
+
+        ## Proposed change:
+        Describe what should be changed.
+
+        ## Reason:
+        Explain why this change is needed.
+
+        ## Benefits:
+        Explain how this change would improve the project.
+    validations:
+      required: true

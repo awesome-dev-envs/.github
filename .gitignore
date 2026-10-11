@@ -1,0 +1,10 @@
+# Ignore common IDE local folders
+.idea/
+.vs/
+target/
+bin/
+debug/
+log/
+
+# Ignore critical files
+*.env
