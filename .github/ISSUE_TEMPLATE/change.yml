@@ -11,27 +11,41 @@ body:
       value: |
         Thanks for helping us improve this project!
 
-        Before submitting a change request, take a moment to read our [Contributing Guide](https://github.com/awesome-dev-envs/blob/main/CONTRIBUTING.md).  
+        Before submitting a change request, take a moment to read our [Contributing Guide](https://github.com/awesome-dev-envs/.github/blob/main/CONTRIBUTING.md).  
         If you have questions, need support, or would like to suggest a new feature, please use our [GitHub Discussions](https://github.com/orgs/awesome-dev-envs/discussions).
-  - type: markdown
+
+        Use Discussions for questions. File this issue in the stack repo when the change is in an installer.
+
+        Keep your description specific and concise.
+
+  - type: textarea
+    id: behavior
     attributes:
-      value: Use Discussions for questions. File this issue in the stack repo when the change is in an installer.
+      label: Current Behavior
+      description: Describe how the feature works today.
+      placeholder: How this feature works today?
+    validations:
+      required: true
+
   - type: textarea
     id: proposal
     attributes:
       label: Change Proposal
-      description: Describe what should change, why it should change, and how it would improve the project. Keep it specific and concise.
+      description: Describe what should be changed.
       placeholder: |
-        ## Current behavior:
-        Describe the origin of the issue or how the feature, workflow, or documentation works today.
+        ### Proposed change:
+        What should be changed?
 
-        ## Proposed change:
-        Describe what should be changed.
+        ### New behavior:
+        How should the feature behave after the change?
+    validations:
+      required: true
 
-        ## Reason:
-        Explain why this change is needed.
-
-        ## Benefits:
-        Explain how this change would improve the project.
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Explain why this change is needed or how this change would improve the project.
+      placeholder: Why this change is needed?
     validations:
       required: true
