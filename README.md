@@ -39,7 +39,7 @@ This is an open-source project under the [MIT LICENSE](LICENSE).
 ## Get in touch
 
 - **[GitHub Discussions](https://github.com/orgs/awesome-dev-envs/discussions):** questions and ideas
-- **[GitHub Issues](https://github.com/awesome-dev-envs/.github/issues):** bugs and improvements
+- **[GitHub Issues](https://github.com/awesome-dev-envs/.github/issues):** bugs and changes
 
 ## Important notes
 

@@ -16,8 +16,8 @@ The maintainers will do their best to address reports promptly and responsibly.
 
 ## Reporting Issues and Vulnerabilities
 
-- **Automated Script/Security Flaws/Documentations:** If you discover a vulnerability or flaw in our repository scripts or automation logic, please open a [bug issue](https://github.com/awesome-dev-envs/.github/issues/new).
-- **Tool Additions/Changes:** If you wish to suggest including, modifying, or removing a tool, please open an [improvement issue](https://github.com/awesome-dev-envs/.github/issues/new) or submit a Pull Request.
+- **Automated Script/Security Flaws/Documentations:** If you discover a vulnerability or flaw in our repository scripts or automation logic, please open a [bug issue](https://github.com/awesome-dev-envs/.github/issues/new?template=bug.yml).
+- **Tool Additions/Changes:** If you wish to suggest including, modifying, or removing a tool, please open a [change issue](https://github.com/awesome-dev-envs/.github/issues/new?template=change.yml) or submit a Pull Request.
 
 When reporting an issue, please include:
 

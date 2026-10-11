@@ -54,18 +54,19 @@ If a community member engages in unacceptable behavior, the community organizers
 
 ## 6. Reporting Guidelines
 
-If you are subject to or witness unacceptable behavior or have any other concerns, please notify a community organizer as soon as possible.
+If you experience or witness unacceptable behavior or have any concerns about this Code of Conduct, please notify the community organizers as soon as possible.
 
-Open a private or public report as a [GitHub Issue](https://github.com/awesome-dev-envs/.github/issues/new?labels=conduct) on this organization repository (label `conduct`), or start a [GitHub Discussion](https://github.com/orgs/awesome-dev-envs/discussions) if you need help choosing a channel.
+To report an incident or request assistance, start a discussion in our [GitHub Discussions](https://github.com/orgs/awesome-dev-envs/discussions). 
+Please provide as much relevant information as possible so that maintainers can review the situation appropriately.
 
-Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
-
-This community is primarily online (GitHub). The same standards apply to issues, pull requests, discussions, and any meetups we may host.
+This community is primarily online through GitHub. The same standards apply to issues, pull requests, discussions, reviews, comments, and any community events or meetups associated with the project.
 
 ## 7. Addressing Grievances
 
-If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify the organization maintainers with a concise description of your grievance 
-via a [GitHub Issue](https://github.com/awesome-dev-envs/.github/issues/new?labels=conduct) or [GitHub Discussion](https://github.com/orgs/awesome-dev-envs/discussions). Your grievance will be handled in accordance with our existing governing policies.
+If you believe you have been unfairly accused of violating this Code of Conduct, you may raise your concerns by opening a discussion in our [GitHub Discussions](https://github.com/orgs/awesome-dev-envs/discussions).
+
+Please provide a clear and concise description of your grievance, including any relevant context that may help maintainers review the situation. 
+Reports and appeals will be handled in accordance with the project's governing policies and at the discretion of the organization maintainers.
 
 See also [CONTRIBUTING.md](CONTRIBUTING.md).
 
