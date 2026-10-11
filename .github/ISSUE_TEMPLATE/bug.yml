@@ -13,45 +13,50 @@ body:
 
         To help us investigate the bug, please provide clear steps to reproduce the problem, along with any relevant logs, screenshots, or error messages.
 
-        Before submitting a bug report, take a moment to read our [Contributing Guide](https://github.com/awesome-dev-envs/blob/main/CONTRIBUTING.md).  
+        Before submitting a bug report, take a moment to read our [Contributing Guide](https://github.com/awesome-dev-envs/.github/blob/main/CONTRIBUTING.md).  
         If you have questions, need support, or would like to suggest a new feature, please use our [GitHub Discussions](https://github.com/orgs/awesome-dev-envs/discussions).
-  - type: markdown
-    attributes:
-      value: Use Discussions for questions. File this issue in the stack repo when the bug is in an installer.
+
+        Use Discussions for questions. File this issue in the stack repo when the bug is in an installer.
+
+        Keep your description specific and concise.
+
   - type: textarea
     id: description
     attributes:
       label: Bug description
       description: Describe what happened. Keep it specific and concise.
       placeholder: |
-        ## Description
-        Describe what happened. Include commands and error text.
+        ### Actual behavior
+        Describe what happened.
 
-        ## Steps to reproduce
-        1.
-        2.
-        3.
-
-        ## Expected behavior
+        ### Expected behavior
         Describe what you expected to happen.
-
-        ## Environment
-        - OS Version: macOS 15 / Windows 11 / Linux Ubuntu 22.04
-        - Shell Version: zsh / bash / powershell
-
-        ## Additional information
-        Add screenshots, logs, or any other relevant details.
-
-
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened
-      description: Expected vs actual. Include commands and error text.
     validations:
       required: true
+
   - type: textarea
     id: reproduce
     attributes:
-      label: How to reproduce
-      description: Need more details in the README.md
+      label: Steps to Reproduce
+      description: Explain the steps to reproduce the issue. Include commands and error text.
+      placeholder: |
+        1. Run command: `init.sh --profile: <profile_name>`
+        2. Choose the language and ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
+      description: Inform your environment, logs, errors messages, and any other relevant details.
+      placeholder: |
+        - OS Version: macOS 15 / Windows 11 / Linux Ubuntu 22.04
+        - Shell Version: zsh / bash / powershell
+        - Add screenshots, logs, or any other relevant details (e.g., terminal emulator, version control, etc.).
+
+        ### Error Message
+        Add the error message here.
+    validations:
+      required: true
